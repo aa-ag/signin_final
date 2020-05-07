@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(250, 250, 250, 0.9);
+}
+* {
+    padding: 1px;
+    margin: 1px;
+}
+.panel-heading {
+    background-color: white;
+    padding-bottom: 60px;
+    box-shadow: 3px 3px rgb(243, 241, 241);
+}
