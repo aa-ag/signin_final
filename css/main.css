@@ -27,6 +27,9 @@ body {
     width: 100%;
     border: 1px solid gray;
 }
+h1, label {
+    font-weight: bold;
+}
 #new, #newp {
     text-align: center;
 }
