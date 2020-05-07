@@ -7,52 +7,47 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" href="css/main.css">
-<title>Amazon Sign-In</title>
-<link rel="icon" href="https://cdn.worldvectorlogo.com/logos/amazon-icon-1.svg" type="image/x-icon">
+<title>Amazon Replica Walkthrough</title>
 </head>
 <body>
-    <div class="panel-heading">
-        <div class="container" id="icon">
-            <a href="htpps://placeholder.com"><img src="https://via.placeholder.com/103x31"></a>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="form-group">
-                        <h1>Sign-In</h1>
-                        <label for="email">Email (phone or mobile accounts)</label>
-                        <input type="text" class="form-control">
-                        <br>
-                        <div class="d-flex justify-content-between">
-                            <label for="password">Password</label><span></span>
-                            <a href="#" class="forgotpassword">Forgot Password</a>
-                        </div>
-                        <input type="password" class="form-control">
-                        <br>
-                        <button type="submit" class="btn btn-warning" id="continue">Continue</button>
-                        <br>
-                        <p id="needh"><a href="#">► Need help?</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container" id="new">
-            <div class="col-md">
-                <p id="newp">New to Amazon?</p>
-            </div>
-            <button type="text" class="button-other">Create your Amazon account</button>
+    <!--Image Logo Placeholder-->
+    <div class="col-md-4 offset-md-4">
+        <img src="https://via.placeholder.com/103x31" alt="Place Holder Logo Image" class="logo-img">
+    </div>
+    <!--Beginning of Form Area-->
+    <div class="col-md-4 offset-md-4">
+        <fieldset class="center-span">
+            <h2>Sign-In</h2>
+            <form action="">
+                <label for="email">Email (phone for mobile account)</label>
+                <input type="email" id="email" name="email" placeholder="">
+                <!--Password Input and Label-->
+                <label for="password">Password</label>
+                <span class="forgotpass"><a href="#">Forgot password</a></span>
+                <input type="password" id="password" name="password" placeholder="">
+                <input type="submit" value="continue">
+            </form>
+            <a href="#">
+                <p class="need-help">► Need Help?</p>
+            </a>
+        </fieldset>
+        <!--New To Amazon Area-->
+        <div class="center-span">
+            <h6 class="center-span"><span>To Amazon</span></h6>
+            <button>Create your Amazon</button>
         </div>
     </div>
-    <div class="container">
-        <nav>
-            <ul class="nav justify-content-center">
-            <li class="nav-item"><a class="nav-link" href="#">Conditions of Use</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Privacy Notice</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
-        </ul>
-        <p class="nav justify-content-center">&#169; 1996-2018, Amazon.com, Inc. or its affiliates</p>
-    </div>
-
+    <!--Footer Area-->
+    <footer class="col-md-12">
+        <div class="col-md-4 offset-md-4 footerElem">
+            <div class="center-span">
+                <a href="#"><p>Conditions of Use</p></a>
+                <a href="#"><p>Privacy Notice</p></a>
+                <a href="#"><p>Help</p></a>
+            </div>
+            <p>&copy; 1996-2020, Amazon.com, Inc. or it's affiliates</p>
+        </div>
+    </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>

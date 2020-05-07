@@ -1,46 +1,100 @@
 body {
-    background-color: rgba(250, 250, 250, 0.9);
+    font-family: Arial, sans-serif;
 }
-* {
-    padding: 1px;
-    margin: 1px;
+div {
+    padding: 20px;
 }
-.panel-heading {
-    background-color: white;
-    padding-bottom: 60px;
-    box-shadow: 3px 3px rgb(243, 241, 241);
+body div img {
+    display: block;
+    margin: 0 auto;
 }
-#icon {
+.center-span {
     text-align: center;
+    margin: 0 auto;
 }
-.col {
-    margin-left: 20%;
-    margin-right: 20%;
+fieldset {
+    width: 75%;
 }
-.form-group {
-    border: 1px solid silver;
-    border-radius: 5px;
-    padding: 30px;
-    margin: 30px;
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
-.btn {
+fieldset label {
+    font-size: 90%;
+}
+form input {
+    display: block;
     width: 100%;
-    border: 1px solid gray;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom: 25px;
 }
-h1, label {
-    font-weight: bold;
+form input[type="submit"] {
+    background-color: #f7c548;
+    border-color: #a88734 #9c7e31 #846a29;
+    font-size: 90%;
 }
-#new, #newp {
+.need-help {
+    position: relative;
+    transform: translate(-38%, 0);
+
+}
+h6, button {
+    width: 75%;
     text-align: center;
 }
-.password-related {
-    display: inline-block;
+h6 {
+    color: #767676;
+    border-bottom: 1px solid #767676;
+    line-height: 0.1em;
+    margin: 30px 0 20px;
 }
-.button-other {
-    width: 48%;
-    background-color: rgb(224, 223, 223);
+span {
+    background-color: white;
+    color: #767676;
+    padding: 0 10px;
 }
-#needh {
-    margin-top: 20px;
-    padding-top: 20px;
+button {
+    font-size: 90%;
+    padding: 5px;
+    margin-top: 25px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+footer {
+    border-top: 2px solid #adb1b8;
+}
+.footerElem > div > a > p {
+    display: inline;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 80%;
+}
+.footerElem > p {
+    font-size: 80%;
+    text-align: center;
+    padding: 2px;
+}
+div > fieldset > h2 {
+    text-align: left;
+}
+label[for="email"] {
+    text-align: left;
+    display: block;
+}
+label[for="password"] {
+    position: relative;
+    bottom: 0;
+    right: 4.5vw;
+}
+.forgotpass {
+    position: relative;
+    bottom: 0vh;
+    right: -5vw;
 }
