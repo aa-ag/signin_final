@@ -10,3 +10,30 @@ body {
     padding-bottom: 60px;
     box-shadow: 3px 3px rgb(243, 241, 241);
 }
+#icon {
+    text-align: center;
+}
+.col {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.form-group {
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px;
+}
+.btn {
+    width: 100%;
+    border: 1px solid gray;
+}
+#new, #newp {
+    text-align: center;
+}
+.password-related {
+    display: inline-block;
+}
+.button-other {
+    width: 55%;
+    background-color: rgb(224, 223, 223);
+}

@@ -17,25 +17,27 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="outline col-md-4">
+                <div class="col">
                     <div class="form-group">
                         <h1>Sign-In</h1>
                         <label for="email">Email (phone or mobile accounts)</label>
                         <input type="text" class="form-control">
-                        <label for="password">Password</label>
-                        <a href="#" class="forgotpassword">Forgot Password</a>
+                        <div class="password-related">
+                            <label for="password">Password</label><span></span>
+                            <a href="#" class="forgotpassword">Forgot Password</a>
+                        </div>
                         <input type="password" class="form-control">
-                        <!--this should be gradient-->
-                        <button type="submit" class="btn btn-primary">Continue</button>
+                        <br>
+                        <button type="submit" class="btn btn-warning" id="continue">Continue</button>
                         <br>
                         <a href="#">► Need help?</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container">
-            <p>New to Amazon?</p>
-            <button type="text" class="btn btn-secondary">Create your Amazon account</button>
+        <div class="container" id="new">
+            <p id="newp">New to Amazon?</p>
+            <button type="text" class="button-other">Create your Amazon account</button>
         </div>
     </div>
     <div class="container">
