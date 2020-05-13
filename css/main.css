@@ -13,7 +13,7 @@ body div img {
     margin: 0 auto;
 }
 fieldset {
-    width: 75%;
+    width: 100%;
 }
 fieldset {
     border: 1px solid #ddd;
@@ -40,7 +40,7 @@ form input[type="submit"] {
 }
 .need-help {
     position: relative;
-    transform: translate(-38%, 0);
+    transform: translate(-34%, 0);
 
 }
 h6, button {
@@ -67,6 +67,21 @@ button {
     border-radius: 2px;
     margin-bottom: 20px;
 }
+div > fieldset > h2 {
+    text-align: left;
+}
+label[for="email"] {
+    text-align: left;
+    display: block;
+}
+label[for="password"] {
+    position: relative;
+    bottom: 0;
+}
+.forgotpass, .need-help {
+    position: relative;
+    bottom: 0vh;
+}
 footer {
     border-top: 2px solid #adb1b8;
 }
@@ -80,21 +95,4 @@ footer {
     font-size: 80%;
     text-align: center;
     padding: 2px;
-}
-div > fieldset > h2 {
-    text-align: left;
-}
-label[for="email"] {
-    text-align: left;
-    display: block;
-}
-label[for="password"] {
-    position: relative;
-    bottom: 0;
-    right: 4.5vw;
-}
-.forgotpass {
-    position: relative;
-    bottom: 0vh;
-    right: -5vw;
 }
