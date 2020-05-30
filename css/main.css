@@ -78,8 +78,13 @@ label[for="password"] {
     position: relative;
     bottom: 0;
 }
-.forgotpass, .need-help {
+.forgotpass {
     position: relative;
+    bottom: 0vh;
+    margin-left: 8.1vw;
+}
+.need-help {
+    position: 
     bottom: 0vh;
 }
 footer {
